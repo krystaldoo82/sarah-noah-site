@@ -1,0 +1,179 @@
+body {
+ font-family: 'Lato', sans-serif;
+ margin-top: 50px;
+
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  -webkit-font-smothing: antialiased;
+  text-rendering: optimizeLegibility;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+/**NAVBAR
+======================================**/
+
+.navbar-default {
+  background-color: #c8c3cc;
+  border-color: white;
+  border-width: 0 0 20px 0;
+  
+}
+.navbar-default .navbar-brand {
+  color: #563f46;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #c8c3cc;
+  padding: 0;
+  margin: 0;
+}
+.navbar-default .navbar-text {
+  color: #563f46;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #563f46;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #c8c3cc;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #c8c3cc;
+  background-color: #563f46;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #c8c3cc;
+  background-color: #563f46;
+}
+.navbar-default .navbar-toggle {
+  border-color: #563f46;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #563f46;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #563f46;
+}
+
+.navbar-default .navbar-link {
+  color: #563f46;
+}
+.navbar-default .navbar-link:hover {
+  color: #c8c3cc;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #563f46;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #c8c3cc;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #c8c3cc;
+    background-color: #563f46;
+  }
+}
+
+  /**HERO
+  ====================================**/
+
+
+  
+  #hero {
+    background-color: #484f4f;
+    min-height: 600px;
+    color:#8ca3a3;
+    width: 100%;
+    padding: 30px 0;
+  }
+
+ #hero h1 {
+  font-size: 6em;
+  padding-bottom: 30px;
+ }
+
+#hero h3 {
+  font-size: 2.5em;
+  line-height: 15px;
+  padding-top: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+  #hero h1,
+  #hero h3 {
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+  }
+
+  #hero img {
+    height:400px;
+    width: 100%;
+  }
+
+  #hero p {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+/**CLASSES
+===============================**/
+
+#classes {
+  background-color: white;
+  color:#484f4f;
+  padding: 30px 0;
+}
+
+#classes h2 {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+#classes h2 p {
+  padding: 0;
+}
+
+#classes img {
+  height: 100px;
+}
+
+#classes .row {
+  padding-bottom: 40px;
+}
+
+#classes h3 {
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+  text-transform: uppercase;
+  margin: 30px; 
+  line-height: 1em;
+}
+
+#classes h3+p {
+  padding-top: 0;
+  margin-top: 10px;
+}
+
+#classes .date {
+  font-size: 1.25em;
+}
+
+#classes p {
+  padding: 10px;
+}
