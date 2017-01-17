@@ -28,19 +28,20 @@ h1,h2,h3,h4,h5,h6 {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #c8c3cc;
-  padding: 0;
-  margin: 0;
+  color: #563f46;
+  
 }
 .navbar-default .navbar-text {
   color: #563f46;
 }
 .navbar-default .navbar-nav > li > a {
   color: #563f46;
+  height: 60px;
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #c8c3cc;
+  color: #563f46;
+  font-weight: bold;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -70,6 +71,15 @@ h1,h2,h3,h4,h5,h6 {
 }
 .navbar-default .navbar-link:hover {
   color: #c8c3cc;
+}
+
+.facebook {
+  font-size: 30px;
+}
+
+.facebook a {
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 767px) {
@@ -176,4 +186,35 @@ h1,h2,h3,h4,h5,h6 {
 
 #classes p {
   padding: 10px;
+}
+
+/*CONTACT PAGE*/
+
+#contact {
+   background-color: #484f4f;
+    min-height: 550px;
+    color:#8ca3a3;
+    width: 100%;
+    padding: 30px 0;
+}
+
+.contact-her {
+  padding-top: 150px;
+  margin-left: 5%;
+}
+
+.button {
+  margin-right: 15px;
+}
+
+.button a{
+  color: white;
+  
+}
+
+#contact img {
+  max-height: 450px;
+  padding: 20px;
+  margin-left: 40px;
+  margin-top: 30px;
 }
